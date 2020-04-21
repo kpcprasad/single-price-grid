@@ -1,0 +1,226 @@
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    width: 1440px;
+    height: 800px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* original and now backup*/
+/* .main-container{
+    margin-left:auto;
+    margin-right: auto;
+    width: 650px;
+    height: 500px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}  */
+
+
+.main-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 500px;
+    position: relative;
+    top: 15%;
+    /* left: 0%; */
+    /* transform: translate(-50%, -50%); */
+    border-radius: 10px;
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.box1{
+    width: 650px;
+    height: 250px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.text{
+    padding-left: 7%;
+    padding-top: 4%;
+}
+.text h2{
+    color: hsl(179, 62%, 43%);
+}
+.text h3{
+    color: hsl(71, 73%, 54%);
+    padding-top: 3%;
+}
+.text p{
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    font-size: 99%;
+    padding-right: 10%;
+    line-height: 170%;
+}
+
+.text ul{
+    list-style-type:none;
+    padding-left: 0%;
+}
+
+.box2{
+    width: 325px;
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    background-color: hsl(179, 62%, 43%)
+}
+
+.text2{
+    padding-left: 16%;
+    padding-top: 10%;
+    color: hsl(204, 43%, 93%);
+}
+
+.text2 h3{
+    margin: 0%;
+}
+
+.text2 button{
+    height: 40px;
+    width: 240px;
+    border-radius: 8px;
+    background-color: hsl(71, 73%, 54%);
+    border: 0px;
+    color: white;
+    font-size: unset;
+    font-weight: 700;
+    box-shadow: -1px 1px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.box3{
+    width: 325px;
+    height: 250px;
+    background-color:hsl(179, 47%, 52%);
+} 
+
+.text3{
+    padding-left: 14%;
+    padding-top: 10%;
+    color: hsl(204, 43%, 93%);
+}
+
+.text3 ul{
+    list-style-type:none;
+    padding-left: 0%;
+}
+
+.text3 p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0%;
+}
+
+.text3 h3{
+    margin: 0%;
+}
+
+@media screen and (max-width:600px){
+
+    body{
+        font-family: 'Karla', sans-serif;
+        background-color: hsl(204, 43%, 93%);
+        width: 375px;
+        height: 1000px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main-container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 325px;
+        height: 750px;
+        position: relative;
+        top: 10%;
+        /* left: 0%; */
+        /* transform: translate(-50%, -50%); */
+        border-radius: 10px;
+        /* background-color: blueviolet; */
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    
+    .box1{
+        width: 325px;
+        height: 250px;
+        background-color: white;
+        /* border-radius: 10px; */
+    }
+
+    .text p{
+        color: hsl(218, 22%, 67%);
+        font-weight: 400;
+        font-size: 93%;
+        padding-right: 5%;
+        line-height: 140%;
+    }
+
+    .text h3{
+        color: hsl(71, 73%, 54%);
+        padding-top: 3%;
+    }
+
+    .box2{
+        width: 325px;
+        height: 250px;
+        /* border-radius: 10px; */
+        border-bottom-left-radius: 0px;
+        background-color: hsl(179, 62%, 43%)
+    }
+
+    .text2 button{
+        height: 40px;
+        width: 280px;
+        border-radius: 8px;
+        background-color: hsl(71, 73%, 54%);
+        border: 0px;
+        color: white;
+        font-size: unset;
+        font-weight: 700;
+        box-shadow: -1px 1px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .box3{
+        width: 325px;
+        height: 250px;
+        /* border-radius: 10px; */
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: hsl(179, 47%, 52%);
+    } 
+
+    .text2{
+        padding-left: 7%;
+        padding-top: 7%;
+        color: hsl(204, 43%, 93%);
+    }
+
+    .text3{
+        padding-left: 7%;
+        padding-top: 7%;
+        color: hsl(204, 43%, 93%);
+    }
+}
