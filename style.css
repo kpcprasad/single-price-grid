@@ -1,7 +1,7 @@
 body{
     font-family: 'Karla', sans-serif;
     background-color: hsl(204, 43%, 93%);
-    width: 1440px;
+    width: auto;
     height: 800px;
     margin: 0px;
     padding: 0px;
@@ -139,7 +139,7 @@ body{
     body{
         font-family: 'Karla', sans-serif;
         background-color: hsl(204, 43%, 93%);
-        width: 375px;
+        width: auto;
         height: 1000px;
         margin: 0px;
         padding: 0px;
